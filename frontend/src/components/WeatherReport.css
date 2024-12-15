@@ -1,0 +1,80 @@
+/* WeatherReport.css */
+
+.weather-report {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+}
+
+.weather-report h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.reports-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.report-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.report-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.report-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.report-details {
+    text-align: center;
+}
+
+.temperature {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.location {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.data-row {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    color: #555;
+}
+
+.data-row img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.timestamp {
+    font-size: 0.9em;
+    color: #999;
+    margin-top: 10px;
+}
